@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# User add
+gem 'haml-rails'
+gem 'sorcery'
