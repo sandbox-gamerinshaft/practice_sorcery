@@ -10,6 +10,11 @@ class SessionsController < ApplicationController
       render:new
     end  
   end
+
+  def destroy
+    logout
+    redirect_to new_sessions_path, notice: "you've logged out"
+  end
   
   private
 
